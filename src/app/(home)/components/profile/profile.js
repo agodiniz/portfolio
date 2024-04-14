@@ -8,7 +8,7 @@ export default function ProfileSection() {
         <Image
           src={profilePhoto}
           alt="Picture of the author"
-          className="rotate-[-1deg] w-[260px] sm:w-[330px]"
+          className="rotate-[-1deg] w-[260px] hover:scale-105 transition ease-out sm:w-[330px]"
         />
         <div className="px-5 py-3 rounded-xl border-[3px] border-[#4D4D4D] absolute right-0 top-0 rotate-12">
           <h6 className="text-[#4D4D4D] text-center text-base sm:text-lg">Available for work</h6>

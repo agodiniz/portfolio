@@ -14,7 +14,21 @@
 }
 
 body {
+  position: relative;
   background-color: #F1E9DA;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url(../../public/assets/Noise.png);
+  background-repeat: repeat;
+  z-index: 1;
 }
 
 h2, p, span, a {
@@ -23,9 +37,4 @@ h2, p, span, a {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#noise {
-  background-image: url(../../public/assets/Noise.png);
-  background-repeat: repeat;
 }

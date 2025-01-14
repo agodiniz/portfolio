@@ -21,8 +21,9 @@ export default function Header() {
         <Link href="/">
           <Image
             src={brandLogo}
+            width={80}
             alt="Tiago Diniz Logo"
-            className="w-[74px] h-auto"
+            className="w-[80px] md:[100px] h-auto"
             priority
           />
         </Link>

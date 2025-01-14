@@ -18,7 +18,7 @@ export default function ProfileSection() {
       <div className="bg-[#4D4D4D] flex flex-col gap-2 items-center p-4 rotate-1 w-full max-w-[384px] sm:max-w-[504px]">
         <h2 className="text-[#F1E9DA] text-4xl">Tiago Diniz</h2>
         <span className="text-[#F1E9DA] text-sm sm:text-base">
-          Product Designer / UX Engineer
+          Design Manager
         </span>
       </div>
       <div className="mt-4 divide-y-1 divide-y divide-dashed divide-[#473333]">

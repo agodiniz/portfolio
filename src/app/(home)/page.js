@@ -4,6 +4,7 @@ import About from "./components/about/about";
 import Experience from "./components/experience/page";
 import Hero from "./components/hero/hero";
 import Career from "./components/career/page";
+import Partners from "./components/partners/partners";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <Header />
     <main className="flex flex-col justify-center items-center">
       <Hero />
+      <Partners />
       {/* <Career /> */}
       {/*<ProfileSection />
       <About />

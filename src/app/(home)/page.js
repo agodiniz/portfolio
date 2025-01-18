@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center">
       <Hero />
       <Partners />
-      {/* <Career /> */}
+      <Career />
       {/*<ProfileSection />
       <About />
       <Experience /> */}

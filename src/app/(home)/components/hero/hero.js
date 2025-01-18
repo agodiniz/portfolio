@@ -91,16 +91,16 @@ export default function Hero() {
                   ease: "easeOut",
                 }}
               >
-                <ShineBorder
+                {/* <ShineBorder
                   className="relative mx-4 lg:mx-0 p-0 overflow-hidden rounded-lg bg-transparent"
                   color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-                >
+                > */}
                   <Image
                     src={bannerHero}
                     alt="Banner Hero"
                     className="w-auto sm:w-[388px] lg:w-[488px] lg:px-0 rounded-xl"
                   />
-                </ShineBorder>
+                {/* </ShineBorder> */}
               </motion.div>
             </div>
           </div>
